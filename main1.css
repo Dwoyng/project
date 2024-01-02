@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    background: linear-gradient(to right,#17171700, #0a0a0a);
+    width: 100vw;
+    height: 40px;
+    background-attachment: fixed;
+}
+.text{
+    width: 30vw;
+    font-size: 35px;
+    position: relative;
+    right: 1%;top: 2px;
+    font-family: fantasy;
+    text-align: center;
+    color: #da7509d7;
+}
+.Login{
+    float: left;
+    position: relative;
+    left: 90%; bottom: 33px;
+}
+.choice{
+    width: 35%;
+    font-size: 23px;
+    color: beige;
+    display: flex;
+    position: absolute;
+    left: 35%; top: 10px;
+}
+.element{
+    border-bottom: 1px rgb(86, 67, 39)solid;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.c1{
+    position: relative;
+    right: 29%; top: 3px;
+}
+.c2{
+    position: absolute;
+    left: 25%; top: 3px;
+}
+.c3{
+    position: relative;
+    right: 38%; top: 3px;
+}
+.element:hover{
+    background-color: rgb(74, 80, 80);
+    color: rgb(227, 159, 13);
+}
+
+
+body{ 
+    background-size: cover;
+    background-image: url(Fitness1.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.search{
+    width: 30px;
+    float: left;
+    position: relative;
+    left: 60%; bottom: 33px;
+}
+
